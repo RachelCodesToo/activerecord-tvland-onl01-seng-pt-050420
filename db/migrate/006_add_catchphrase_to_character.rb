@@ -1,4 +1,4 @@
-class CreateActors < ActiveRecord::Migration[5.1]
+class  < ActiveRecord::Migration[5.1]
   def change 
     add_column :characters, :catchphrase, :string
   end
